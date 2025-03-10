@@ -1,12 +1,20 @@
-# React + Vite
+# 🏗️ Drag-and-Drop Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+This **Drag-and-Drop Task Management App** is a **Kanban-style task board** that allows users to **organize tasks efficiently** by dragging and dropping them between different columns like **To Do, In Progress, and Done**. 
 
-Currently, two official plugins are available:
+It is designed for **project tracking and workflow management** with an intuitive **UI/UX**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Drag-and-Drop Functionality**: Move tasks between columns.
+- **Task Creation & Deletion**: Add new tasks.
+- **Real-Time Updates**: Instantly reflect changes in the UI.
+- **Modal for Task Addition**: A clean pop-up to enter task details.
+- **Styled with Tailwind CSS**: A modern and responsive UI.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- **Frontend**: React.js (Hooks for state management)
+- **State Management**: Local state using `useState`
+- **Drag & Drop**: `@dnd-kit/core` for smooth drag-and-drop interactions
+- **Styling**: Tailwind CSS for a sleek, responsive UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

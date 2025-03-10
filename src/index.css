@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+body,
+html{
+  @apply  bg-black text-white border-white font-mono
+  ;  /* Default Tailwind sans-serif */
+  
+} 
